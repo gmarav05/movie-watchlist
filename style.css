@@ -104,6 +104,8 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    text-align: center;
     color: #DFDDDD;
     margin-top: 200px;
 }
@@ -115,6 +117,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 200px;
     color: #DFDDDD;
     width: 100vw;
@@ -134,4 +137,10 @@ button:hover {
     background-position-y: center;
     padding: 15px 12px 15px 40px;
     background-position: 10px;
+}
+
+.watchlist-add-btn a{
+    text-decoration: none;
+    color: #363636;
+
 }
