@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Watchlist</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>My Watchlist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,22 +16,15 @@
 
             <div class="main-text">
                 <h1>Find your film</h1>
-                <li><a href="myWatchlist.html">My Watchlist</a></li>
+                <li><a href="#">Search for movies</a></li>
             </div>
 
         </header>
 
-        <section class="input-section">
-
-            <input type="text" name="movie" id="movie" placeholder="Search for a movie">
-            <button>Search</button>
-
-        </section>
-
         <main>
-            <div class="empty-movie-page">
-                <img src="empty-page-film.png" alt="" srcset="">
-                <h2>Start exploring</h2>
+            <div class="empty-watchlist-page">
+                <h2>Your watchlist is looking a little empty...</h2>
+                <button class="watchlist-add-btn">Let's add some movies!</button>
             </div>
         </main>
 
@@ -40,5 +33,4 @@
     </div>
     
 </body>
-<script src="app.js"></script>
 </html>
