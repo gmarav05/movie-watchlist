@@ -48,14 +48,14 @@ function getMovieDetails(movieId) {
 
                     <div class="title">
                         <h1>${data.Title}</h1>
-                        <img src="star.png" alt="Rating on a scale of 10">
+                        <img src="./assets/star.png" alt="Rating on a scale of 10">
                         <p>${data.Ratings[0].Value}</p>
                     </div>
 
                     <div class="min-genre-watchlist">
                         <p>${data.Runtime}</p>
                         <p>${data.Genre}</p>
-                        <button class="watchlist-add-btn" data-watchlist='${data.imdbID}'><a href="index.html">Watchlist</a></button>
+                        <button class="watchlist-add-btn" data-watchlist='${data.imdbID}'><a>Watchlist</a></button>
                     </div>
 
                     <div class="description">
