@@ -11,6 +11,10 @@ Happy movie hunting!
 
 ## Video
 
+https://github.com/user-attachments/assets/0fa37d08-d04f-4cc8-acb4-ed652d32ee9c
+
+
+
 ## Image
 ![](./assets/demo-1.png)
 ![](./assets/demo-2.png)
