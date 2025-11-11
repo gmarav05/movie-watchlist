@@ -22,7 +22,7 @@ function render() {
 function getMovieDetails(movieId) {
     emptyWatchlist.style.display = 'none'
     
-    fetch(`http://www.omdbapi.com/?apikey=2691a84a&i=${movieId}`)
+    fetch(`https://www.omdbapi.com/?apikey=2691a84a&i=${movieId}`)
     .then(res => res.json())
     .then(data => {
         movieCard.innerHTML += `
