@@ -10,6 +10,7 @@ for (let i = 0; i < ids.length; i++) {
 }
 
 function render() {
+    movieCard.innerHTML = ''
     emptyWatchlist.style.display = 'none'
 
     for (let i = 0; i < ids.length; i++) {
